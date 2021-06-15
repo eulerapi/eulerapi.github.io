@@ -9,5 +9,4 @@ Quantitative (ML) financial risk management tool
 # 3. Markov
 # 4. Bayes
 # 5. Kelly
-- The Kelly criterion 
-{\displaystyle S_{t}=S_{0}\exp \left(\left(\mu -{\frac {\sigma ^{2}}{2}}\right)t+\sigma W_{t}\right),}
+- The Kelly criterion
