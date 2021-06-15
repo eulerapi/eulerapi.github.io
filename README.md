@@ -1,6 +1,6 @@
 # eulerapi.github.io
 
-Quantitative (ML) financial risk management tool
+Quantitative (ML) financial risk management tool. The machine learning tool can be applied for investors actively trading cryptocurrencies.
 
 # 1. Bernoulli
 # 2. Fourier
