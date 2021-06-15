@@ -4,7 +4,7 @@ Quantitative (ML) financial risk management tool
 
 # 1. Bernoulli
 # 2. Fourier
- - Fourier transformation
+ - Fourier transformation: inflation rates
  - Sine wave for cyclicality
 # 3. Markov
 # 4. Bayes
