@@ -12,3 +12,5 @@ Quantitative (ML) financial risk management tool. The machine learning tool can 
 # 4. Bayes
 # 5. Kelly
 - The Kelly criterion
+# 6. Black–Scholes–Merton
+- Implied volatility. Comparisons to VIX
