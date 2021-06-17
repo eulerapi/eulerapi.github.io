@@ -1,6 +1,6 @@
 # eulerapi.github.io
 
-Quantitative (ML) financial risk management tool. The machine learning tool can be applied for investors actively trading cryptocurrencies. The idea is to use tested models in finance to introduce probability based risk management models for decision makers. This is to say that layman without touchbase to mathematics are able to make better decisions faster. This takes the unwanted layer out of the chain of command in political/business decision making where there is somesort of powerpoint-consultant/middle management in between of the data and the C-level. 
+Quantitative (ML) financial risk management tool. The machine learning tool can be applied for investors actively trading cryptocurrencies. The idea is to use tested models in finance to introduce probability based risk management models for decision makers. This is to say that layman without touchbase to mathematics are able to make better decisions faster. This takes the unwanted layer out of the chain of command in political/business decision making where there is somesort of powerpoint-consultant/middle management in between of the data and the C-level. This better highlights that events with 1/30 chance of happening within a given year have a  96.6% of happening once in a century.
 
 # 1. Bernoulli
 # 2. Fourier
