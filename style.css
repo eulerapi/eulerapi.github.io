@@ -1,4 +1,17 @@
+label {
+  cursor: pointer;
+  vertical-align: super;
+  line-height: 1;
+  font-size: .75em;
+  padding-left: .1em;
+}
 
+label:hover {
+  color: var(--highlight);
+}
+
+label:before {content:"[";}
+label:after {content:"]";}
 label + input,
 label + input + small {
   display: none;
