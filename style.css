@@ -18,3 +18,20 @@ body {
   max-width: 64em;  /* remove this for a full-width layout */
   margin: 0 auto;  /* centers the layout */
 }
+
+/* ------- Sections ------- */
+
+section {
+  padding: calc(6em + 5vw) 5vw 8vw 5vw;
+  /* ! Everything below is needed ! */
+  display: none;
+  position: absolute;
+  top: 0;
+  min-height: 100vh;
+  width: 100%;
+  background: var(--bgcolor);
+}
+
+section#home { /* Show #home by default */
+  display: block;
+}
