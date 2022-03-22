@@ -32,6 +32,10 @@ section {
   background: var(--bgcolor);
 }
 
+section:target { /* Show section */
+  display: block;
+}
+
 section#home { /* Show #home by default */
   display: block;
 }
