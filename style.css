@@ -66,7 +66,7 @@ a {
 }
 
 a:hover {
-  border-bottom: 1px solid;
+  border-top: 10px solid;
 }
 
 section h1 {
@@ -116,4 +116,30 @@ blockquote:before {
   background: currentColor;
   width: 1px;
   opacity: .2;
+}
+
+code, textarea {
+  font-family: ui-monospace, SF Mono, Menlo, Monaco, Andale Mono, monospace;
+  font-size: 1em;
+  opacity: .7;
+}
+
+a code {
+  opacity:1;
+}
+
+pre, textarea { /* for code samples */
+  font-size: .9em;
+  color: inherit;
+  line-height:inherit;
+  padding:.6em .9em;
+  margin: .8em 0 1em 0;
+  position: relative;
+  display: block;
+  width: 100%;
+  white-space: pre;
+  border:0;
+  border-radius: 4px;
+  background:rgba(255,255,100,.075);
+  box-shadow: inset 1px 1px 0 rgba(0,0,0,.2), inset -1px -1px 0 rgba(0,0,0,.04) ;
 }
