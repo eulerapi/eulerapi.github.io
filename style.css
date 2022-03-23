@@ -174,7 +174,3 @@ input:checked + small {
   display: block;
   padding: .8em 0 1em 2.5vw;;
 }
-
-label + input + small { display: inline; }
-label + input + small:before { content: "["; }
-label + input + small:after { content: "]"; }  
