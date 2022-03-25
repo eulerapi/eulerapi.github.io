@@ -185,41 +185,7 @@ input:checked + small {
   padding: .8em 0 1em 2.5vw;;
 }
 
-/* Figures */
-
-figure {
-  margin: 2em 0 1.5em 0;
-}
-
-figure figcaption {
-  margin: 0.8em 0 0 0;
-  font-size: .85em;
-  opacity: .7;
-}
-
-section:target iframe {
-  visibility: visible;
-}
-
-/* External links */
-
-a[href*="//"]:after { 
-  font-weight: 300;
-  font-size: .85em;
-  content: "\2197"; /* top right arrow: ↗ */
-  color: var(--textcolor);
-  opacity: .25;
-}
-
-a[href*="//"]:hover:after {
-  color: var(--highlight);
-  opacity: 1;
-}
-
-/* File links */
-
 a:before { 
   font-size: .7em;
   margin-right: .4em;
 }
-
