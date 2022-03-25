@@ -84,25 +84,9 @@ h2, h3, h4 {
   margin: 1.6em 0 .6em 0;
 }
 
-p, ul, ol, article {
+p, article {
   max-width: 60ch; /* Limit line-length to 60 characters */
   margin-bottom: .6em;
-}
-
-ul {
-  list-style-type: none;
-}
-
-ul li::marker {
-  content: "\2022   ";
-}
-
-li {
-  margin-bottom: .2em;
-}
-
-ul, ol {
-  padding-left: 2ch;
 }
 
 b, strong {
@@ -146,13 +130,6 @@ blockquote:before {
   background: currentColor;
   width: 1px;
   opacity: .2;
-}
-
-img, svg, video, audio {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  fill: currentColor;
 }
   
 code, textarea {
