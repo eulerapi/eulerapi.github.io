@@ -8,14 +8,6 @@
 
 }
 
-@media (prefers-color-scheme: dark) {
-  * {
-    --textcolor: #dadada;
-    --bgcolor: #141414;
-    --highlight: #ffc400;
-  }
-}
-
 body {
   font-size: 18px;
   font-family: system-ui, sans-serif;
@@ -432,48 +424,4 @@ article time {
   z-index: 4;
 }
 
-/* ------- Smaller screens ------- */
 
-@media only screen and (max-width: 680px) {
-  body { font-size: 16px; }
-}
-
-@media only screen and (max-width: 540px) {
-  nav { width: 100%; } /* Fix for older webkit versions */
-}
-
-/* ------- Print ------- */
-
-@media print {
-  
-  nav, .lightbox:target:after { display: none; }
-  
-  article, figure, img {
-    page-break-inside: avoid;
-    break-inside: avoid;
-  }
-  
-  /* Inline footnotes */
-  
-  label + input + small { display: inline; }
-  label + input + small:before { content: "["; }
-  label + input + small:after { content: "]"; }
-  
-  /* Slides */
-  
-  .slides, .slides figure {
-    position: relative;
-    height: auto;
-    padding: 0;
-  }
-
-  .slides figure img, .slides figure.cover img {
-    max-height: auto;
-    position: relative;
-    z-index: 1;
-    width: auto;
-    height: 100vh;
-    object-fit: contain;
-  }
-    
-}
